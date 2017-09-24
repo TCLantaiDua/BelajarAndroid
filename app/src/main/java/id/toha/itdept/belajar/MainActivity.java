@@ -52,4 +52,16 @@ public class MainActivity extends AppCompatActivity
         activity_kedua.putExtra(EXTRA_MESSAGE, message);
         startActivity(activity_kedua);
     }
+
+    public void openListViewActivity(View view)
+    {
+        Intent intent = new Intent(MainActivity.this, ListViewActivity.class);
+        startActivity(intent);
+    }
+
+    public void openArrayListActivity(View view)
+    {
+        Intent intent = new Intent(MainActivity.this, Main3Activity.class);
+        startActivity(intent);
+    }
 }

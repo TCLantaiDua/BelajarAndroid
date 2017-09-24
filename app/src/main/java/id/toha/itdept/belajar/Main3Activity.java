@@ -27,8 +27,6 @@ public class Main3Activity extends AppCompatActivity {
         words.add("delapan");
 
 
-
-
         LinearLayout rootView = (LinearLayout)findViewById(R.id.rootView);
 
         int index = 0;

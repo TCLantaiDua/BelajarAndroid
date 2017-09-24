@@ -27,4 +27,17 @@
         android:layout_height="wrap_content"
         android:textAlignment="center"
         android:text="TextView" />
+
+    <Button
+        android:id="@+id/buttonListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="openListViewActivity"
+        android:text="ListView" />
+    <Button
+        android:id="@+id/buttonArrayList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="openArrayListActivity"
+        android:text="ArrayList" />
 </LinearLayout>
