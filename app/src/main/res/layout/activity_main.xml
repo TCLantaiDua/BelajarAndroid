@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="id.toha.itdept.belajar.MainActivity"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/TxtInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="Input Text Here"
+        android:text="" />
+
+    <Button
+        android:id="@+id/Btn1"
+        android:layout_width="match_parent"
+        android:onClick="postData"
+        android:layout_height="wrap_content"
+        android:text="Click Me!" />
+
+    <TextView
+        android:id="@+id/LblHasil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="TextView" />
+</LinearLayout>
