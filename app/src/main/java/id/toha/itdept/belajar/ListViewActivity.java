@@ -13,7 +13,7 @@ public class ListViewActivity extends AppCompatActivity
 
     //Deklarasi object Listview dan String Array
     private ListView ListViewData;
-    private String[] Data = new String[]{"Pisang","Apel","Anggur","Pepaya","Mangga","Mangga 1","Mangga 2","Mangga 3","Mangga 4","Mangga 5","Mangga 6","Mangga 1","Mangga 2","Mangga 3","Mangga 4","Mangga 5","Mangga 6"};
+    private String[] Data = new String[]{"Pisang","Anggur","Pepaya","Mangga","Mangga 1","Mangga 2","Mangga 3","Mangga 4","Mangga 5","Mangga 6","Mangga 1","Mangga 2","Mangga 3","Mangga 4","Mangga 5","Mangga 6"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
